@@ -3,5 +3,5 @@ var gcf = function(a, b) {
        return a;  
    }  
 
-   return gcd(b, a % b);  
+   return gcf(b, a % b);  
 }; 
